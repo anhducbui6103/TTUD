@@ -50,6 +50,6 @@ int main()
     for (int i = 0; i < n; i++)
         cin >> a[i];
     mergeSort(0, n - 1);
-    cout << cnt; // In ra biến toàn cục cnt
+    cout << cnt; 
     return 0;
 }
