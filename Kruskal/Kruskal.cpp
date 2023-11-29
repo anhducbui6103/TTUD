@@ -67,7 +67,7 @@ void input()
     for (int i = 0; i < m; i++)
     {
         cin >> u >> v >> w;
-        edges.push_back(edge(u - 1, v - 1, w)); // Adjust for 0-indexing
+        edges.push_back(edge(u - 1, v - 1, w));
     }
 }
 
@@ -82,7 +82,7 @@ int main()
     for (const auto &e : res)
     {
         count += e.w;
-        // cout << e.u + 1 << ' ' << e.v + 1 << ' ' << e.w << endl; // Adjust for 1-indexing
+        cout << e.u + 1 << ' ' << e.v + 1 << ' ' << e.w << endl;
     }
     cout << count << endl;
     return 0;
