@@ -29,7 +29,7 @@ void dfs(int u)
     for (const int &v : adj[u])
         if (!visited[v])
         {
-            dfs(v);
+            dfs(v); 
         }
 }
 
@@ -42,4 +42,5 @@ int main()
             dfs(i);
     }
     return 0;
+    // Sau đó có thể từ DFS để giải một số bài toán khác
 }
