@@ -77,7 +77,7 @@ int main()
 
     input();
     cout << dp(0, 1) << endl;
-    // trace(0, 1);
-    iter_trace();
+    trace(0, 1);
+    // iter_trace();
     return 0;
 }
